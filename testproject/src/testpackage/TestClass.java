@@ -16,7 +16,7 @@ public class TestClass {
     @Before
     public void setUp() throws Exception {
          driver = new FirefoxDriver();
-         driver.get("https://google.com");
+         driver.get("https://www.google.com");
   }
   @After
   public void tearDown() throws Exception {
